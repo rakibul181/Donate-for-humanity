@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#top-section{
+    height:100vh;
+    background-image: url(image/donation2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-section-element{
+
+}
