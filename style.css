@@ -1,29 +1,37 @@
-body{
+body {
     margin: 0;
     font-family: 'Domine', serif;
     font-family: 'Fira Sans', sans-serif;
 }
 
-section{
-    height:100vh;
+section {
+    height: 100vh;
     width: 100%;
 }
-h1{
+
+h1 {
     font-size: 60px;
     font-weight: bold;
     color: white;
 }
-h2{
+
+h2 {
     font-size: 45px;
     font-weight: bold;
     color: black;
 }
-p{
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
     font-size: 18px;
     color: rgb(92, 92, 92);
-    
+
 }
-button{
+
+button {
     height: 50px;
     padding: 5px 20px;
     font-size: 18px;
@@ -34,8 +42,9 @@ button{
     border-radius: 5px;
 
 }
-#top-section{
-    background-image: url(image/donation2.jpg), linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,1));
+
+#top-section {
+    background-image: url(image/donation2.jpg), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
     background-blend-mode: overlay;
     opacity: 0.9;
     position: relative;
@@ -43,36 +52,67 @@ button{
     background-size: cover;
 
 }
-#top-section p{
+
+#top-section p {
     color: white;
 }
-.section-element{
+
+.section-element {
     text-align: center;
-    padding: 100px 250px;
-   
+    padding: 75px 250px 25px 250px;
+
 }
-.donation-ammount{
+
+.donation-ammount {
     padding: 30px 0px;
 }
 
-.donation-ammount button{
+.donation-ammount button {
     height: 120px;
     width: 130px;
     font-size: 24px;
     padding: 0px 10px;
-    margin: 0px 10px;
-    color:black ;
+    margin: 0px 15px;
+    color: black;
     background-color: rgb(230, 230, 230);
 }
-#select-ammount{
+
+#select-ammount {
     border: 2px solid tomato;
     color: tomato;
 }
-#other-ammount{
+
+#other-ammount {
     width: 100%;
     font-size: 18px;
     margin: 20px 0px;
     text-align: center;
     border: lightgray;
     border-bottom: 1px solid lightgray;
+}
+
+.plan-card {
+    display: flex;
+    margin: 0px 200px;
+}
+
+.card {
+    width: 280px;
+    height: 220px;
+    padding: 40px 10px;
+    text-align: justify;
+    margin: 10px;
+}
+.card p{
+    font-size: 16px
+}
+#card1{
+    background-color: rgb(250, 215, 235);
+}
+#card2{
+    background-color:  rgb(215, 250, 235);
+
+}
+#card3{
+    background-color: rgb(250, 235, 215);
 }
