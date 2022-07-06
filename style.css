@@ -33,7 +33,7 @@ p {
 
 button {
     height: 50px;
-    padding: 5px 20px;
+    padding: 5px 25px;
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -116,6 +116,26 @@ button {
 }
 #card3{
     background-color: rgb(250, 235, 215);
+}
+
+form{
+    height: 50px;
+    width: auto;
+    margin: 0px 300px;
+    padding: 75px 100px;
+    background-color: rgb(250, 235, 215);
+    text-align: center;
+    border-radius: 5px;
+}
+input{
+    height: 50px;
+    width: 200px;
+    color: darkgrey;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right:-10px ;
+
 }
 footer{
     text-align: center;
