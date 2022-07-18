@@ -20,7 +20,8 @@ h2 {
     font-weight: bold;
     color: black;
 }
-h3{
+
+h3 {
     font-size: 25px;
     font-weight: bold;
 }
@@ -104,21 +105,27 @@ button {
     margin: 10px;
     border-radius: 5px;
 }
-.card p{
+
+.card p {
     font-size: 16px
 }
-#card1{
+
+#card1 {
     background-color: rgb(250, 215, 235);
 }
-#card2{
-    background-color:  rgb(215, 250, 235);
+
+#card2 {
+    background-color: rgb(215, 250, 235);
 
 }
-#card3{
+
+#card3 {
     background-color: rgb(250, 235, 215);
 }
 
-form{
+
+
+form {
     height: 50px;
     width: auto;
     margin: 0px 300px;
@@ -127,24 +134,46 @@ form{
     text-align: center;
     border-radius: 5px;
 }
-input{
+
+input {
     height: 50px;
     width: 200px;
     color: darkgrey;
     border: none;
     border-radius: 5px;
     padding-left: 10px;
-    margin-right:-10px ;
+    margin-right: -10px;
 
 }
-footer{
+.donar-volunteer{
+    display: flex;
+    text-align: center;
+    margin: 50px;
+}
+.donar-volunteer h1{
+    color: black;
+}
+.doner-data{
+ height: 250px;
+ width: 300px;
+ margin: 10px;
+ background-color: rgb(215, 250, 235);
+}
+.reg-btn{
+    text-align: center;
+}
+
+
+footer {
     text-align: center;
     height: 150px;
     background-color: tomato;
+    
 }
-footer h3{
+
+footer h3 {
     font-style: italic;
     font-size: 28px;
     font-weight: 900;
-    padding: 50px 20px 10px 20px ;
+    padding: 50px 20px 10px 20px;
 }
